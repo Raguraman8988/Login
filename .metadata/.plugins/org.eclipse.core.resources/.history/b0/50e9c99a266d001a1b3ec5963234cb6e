@@ -1,0 +1,12 @@
+package com.practice.org;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import com.baseclass.BaseClass;
+
+public class AutomationPractice extends BaseClass {
+	
+	WebDriver driver  = new ChromeDriver();
+	
+}

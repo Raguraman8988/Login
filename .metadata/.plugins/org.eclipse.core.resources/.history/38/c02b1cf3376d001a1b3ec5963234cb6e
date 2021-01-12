@@ -1,0 +1,36 @@
+package com.practice.org;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import com.baseclass.BaseClass;
+
+public class AutomationPractice extends BaseClass {
+	
+	
+	
+	public static void addKart() {
+		WebDriver driver  = new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "\\Driver\\chromedriver.exe");
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.get("http://automationpractice.com/index.php");
+		driver.navigate().refresh();
+		WebElement loginPage = driver.findElement(By.xpath("//a[@class='login']"));
+		loginPage.click();
+		WebElement emailId = driver.findElement(By.id("email"));
+		emailId.sendKeys("ragu@gmail.com");
+		WebElement pwd = driver.findElement(By.id("passwd"));
+		pwd.sendKeys("abcde");
+		WebElement submit = driver.findElement(By.id("SubmitLogin"));
+		submit.click();
+	}
+	public static void main(String[] args) {
+		addKart();
+	}
+	
+}

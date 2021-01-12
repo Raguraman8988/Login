@@ -1,0 +1,9 @@
+package com.selenium.concept;
+
+public class IELaunch {
+
+	public static void main(String[] args) {
+
+	}
+
+}

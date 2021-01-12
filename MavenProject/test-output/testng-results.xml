@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="63" started-at="2019-12-18T12:17:47 IST" finished-at="2019-12-18T12:17:47 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="63" started-at="2019-12-18T12:17:47 IST" finished-at="2019-12-18T12:17:47 IST">
+      <class name="com.automation.practice.SampleTestNG">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.practice.SampleTestNG@3b0143d3]" name="setUp" is-config="true" duration-ms="47" started-at="2019-12-18T12:17:46 IST" finished-at="2019-12-18T12:17:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="browserLanuch()[pri:0, instance:com.automation.practice.SampleTestNG@3b0143d3]" name="browserLanuch" is-config="true" duration-ms="0" started-at="2019-12-18T12:17:47 IST" finished-at="2019-12-18T12:17:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLanuch -->
+        <test-method status="PASS" signature="enterAmazonUrl()[pri:0, instance:com.automation.practice.SampleTestNG@3b0143d3]" name="enterAmazonUrl" is-config="true" duration-ms="0" started-at="2019-12-18T12:17:47 IST" finished-at="2019-12-18T12:17:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterAmazonUrl -->
+        <test-method status="PASS" signature="searchLaptop()[pri:0, instance:com.automation.practice.SampleTestNG@3b0143d3]" name="searchLaptop" duration-ms="0" started-at="2019-12-18T12:17:47 IST" finished-at="2019-12-18T12:17:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchLaptop -->
+        <test-method status="PASS" signature="loginAmazon()[pri:0, instance:com.automation.practice.SampleTestNG@3b0143d3]" name="loginAmazon" is-config="true" duration-ms="0" started-at="2019-12-18T12:17:47 IST" finished-at="2019-12-18T12:17:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAmazon -->
+        <test-method status="PASS" signature="searchMobile()[pri:0, instance:com.automation.practice.SampleTestNG@3b0143d3]" name="searchMobile" duration-ms="0" started-at="2019-12-18T12:17:47 IST" finished-at="2019-12-18T12:17:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchMobile -->
+        <test-method status="PASS" signature="verifyPage()[pri:0, instance:com.automation.practice.SampleTestNG@3b0143d3]" name="verifyPage" is-config="true" duration-ms="0" started-at="2019-12-18T12:17:47 IST" finished-at="2019-12-18T12:17:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.automation.practice.SampleTestNG@3b0143d3]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2019-12-18T12:17:47 IST" finished-at="2019-12-18T12:17:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="loginAmazon()[pri:0, instance:com.automation.practice.SampleTestNG@3b0143d3]" name="loginAmazon" is-config="true" duration-ms="0" started-at="2019-12-18T12:17:47 IST" finished-at="2019-12-18T12:17:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAmazon -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.automation.practice.SampleTestNG@3b0143d3]" name="logout" is-config="true" duration-ms="0" started-at="2019-12-18T12:17:47 IST" finished-at="2019-12-18T12:17:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.automation.practice.SampleTestNG@3b0143d3]" name="logout" is-config="true" duration-ms="0" started-at="2019-12-18T12:17:47 IST" finished-at="2019-12-18T12:17:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="deleteCookies()[pri:0, instance:com.automation.practice.SampleTestNG@3b0143d3]" name="deleteCookies" is-config="true" duration-ms="0" started-at="2019-12-18T12:17:47 IST" finished-at="2019-12-18T12:17:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCookies -->
+      </class> <!-- com.automation.practice.SampleTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

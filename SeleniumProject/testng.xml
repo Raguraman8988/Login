@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="Test" parallel="tests">
+    <classes>
+      <class name="com.testngtraining.org.amazonSearch"/>
+      <class name="com.testngwork.org.IgnoreTestConcept"/>
+      <class name="com.testngwork.org.DepenndsOnGroup"/>
+      <class name="com.testngtraining.org.CrossBrowserTest"/>
+      <class name="com.testngtraining.org.bikeSearch"/>
+      <class name="com.testngwork.org.FlipkartSearch"/>
+      <class name="com.testngwork.org.DependencyTest"/>
+      <class name="com.testngwork.org.ExceptionTest"/>
+      <class name="com.testngwork.org.BasicAnnotations"/>
+      <class name="com.selenium.concept.CarSearch"/>
+      <class name="com.testngtraining.org.Adactin"/>
+      <class name="com.testngwork.org.ParallelTest"/>
+      <class name="com.testngwork.org.InvocationCount"/>
+      <class name="com.testngwork.org.PriorityTestConcept"/>
+      <class name="com.testngwork.org.TimesOut"/>
+      <class name="com.testngwork.org.GroupsOfGroups"/>
+      <class name="com.testngwork.org.GroupingTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
